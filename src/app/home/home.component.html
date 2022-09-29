@@ -3,7 +3,7 @@
 <div class="container">
   <table>
     <tr *ngFor="let matriz of matrizValues">
-      <td *ngFor="let value of matriz" class="box"></td>
+      <td *ngFor="let data of matriz"  ngClass="{{data.class}} box "></td>
     </tr>
   </table>
 

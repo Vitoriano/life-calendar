@@ -11,3 +11,10 @@
   padding: 3px;
   margin: 3px;
 }
+
+.isRed {
+  background-color: red;
+}
+.isGreen {
+  background-color: green;
+}
